@@ -2,36 +2,14 @@ package global;
 
 public class Constants {
 
-    public static String USERNAME = "userName";
-    public static String USERNAME_VALUE = "standard_user";
 
-    public static String PASSWORD = "password";
-    public static String PASSWORD_VALUE = "secret_sauce";
-
-    public static String AUTOMATION_NAME = "automationName";
-    public static String AUTOMATION_NAME_VALUE = "UiAutomator2";
-
-//    public static String PLATFORM_VERSION = "platformVersion";
-//    public static String PLATFORM_VERSION_VALUE = "7.1.2";
-//
-//    public static String DEVICE_NAME = "deviceName";
-//    public static String DEVICE_NAME_VALUE = "i80";
-//
-//    public static String APP_ACTIVITY = "appActivity";
-//    public static String APP_ACTIVITY_VALUE = "com.dotpayafrica.merchant.activities.onboarding.SplashscreenActivity";
-//
-//    public static String APP_PACKAGE = "appPackage";
-//    public static String APP_PACKAGE_VALUE = "com.dotpayafrica.merchant.sunyard";
-//
-//    public static String UNICODE_KEYBOARD = "unicodeKeyboard";
-//    public static String UNICODE_KEYBOARD_VALUE = "true";
-//
-//    public static String RESET_KEYBOARD = "resetKeyboard";
-//    public static String RESET_KEYBOARD_VALUE = "true";
 
     public static final String siteUrl = "https://www.saucedemo.com/";
     public static String userName = "standard_user";
     public static String passWord = "secret_sauce";
+    public static String invalidUserName = "nonstandard_user";
+    public static String invalidpassword = "non-secret_sauce";
+    public static String filterButton= "product_sort_container";
     public static final String teeShirtName = "//div[text()='Test.allTheThings() T-Shirt (Red)']";
     public static final String teeShirtPrice = "//*[@id=\"inventory_container\"]/div/div[6]/div[2]/div[2]/div";
     public static final String shirtQtty = "cart_quantity";
